@@ -37,14 +37,17 @@ public static void main(String[] args) {
 		}
 	}
 */
- for(int i = 0; i < 15; i ++) {
+ 
+	/* 7. for(int i = 0; i < 15; i ++) {
  int year = 2005 + i;
  int age = i;
   System.out.println("In the year " + year + ", I was " + age + " years old.");
  }
+*/
 
-
-
+for(int i = 0; i < 10; i ++) {
+	
+}
 
 
 }
