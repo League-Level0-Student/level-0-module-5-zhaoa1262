@@ -44,10 +44,23 @@ public static void main(String[] args) {
   System.out.println("In the year " + year + ", I was " + age + " years old.");
  }
 */
-
-for(int i = 0; i < 10; i ++) {
-	
+// nested for loops
+ /* for(int i = 0; i < 3; i ++) {
+	for(int j = 0; j < 3; j ++) {
+	System.out.println(i + " " + j); 
+	}
 }
+*/
+	for(int i = 1; i < 3; i++) {
+		String k = "1";
+		for(int j = 1; i <4; i ++) {
+		System.out.println(j + i*3 + " ");
+		}
+		System.out.println(k);
+	}
+
+
+
 
 
 }
