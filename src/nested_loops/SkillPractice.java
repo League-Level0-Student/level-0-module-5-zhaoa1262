@@ -10,7 +10,7 @@ public static void main(String[] args) {
 SkillPractice skills = new SkillPractice();
           	//skills.skill1();
           	//skills.skill2();
-          	skills.skill3();
+          	//skills.skill3();
           	skills.skill4();
           	skills.skill5();
 }
@@ -72,16 +72,16 @@ System.out.println(m);
 
 // Using a pop-up, tell the user the difference between the numbers // Hint: use subtraction 
 JOptionPane.showMessageDialog(null, "The difference between the numbers is " + Math.abs(m-n));
-
-
 }
 
 void skill4() { // In a pop-up, ask the user for the city they live in 
-
+String city = JOptionPane.showInputDialog("What is the city you live in?");
 
 
 // If they answered "San Diego", tell them they live in America's Finest City 
-
+if(city.equals("San Diego")) {
+	
+}
 
 
 // Otherwise, tell them to move to San Diego 
