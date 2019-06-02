@@ -45,26 +45,64 @@ public static void main(String[] args) {
  }
 */
 // nested for loops
- /* for(int i = 0; i < 3; i ++) {
+ /*1.  for(int i = 0; i < 3; i ++) {
 	for(int j = 0; j < 3; j ++) {
 	System.out.println(i + " " + j); 
 	}
 }
 */
-	for(int i = 1; i < 3; i++) {
-		String k = "1";
-		for(int j = 1; i <4; i ++) {
-		System.out.println(j + i*3 + " ");
+	/*2.  for(int i = 1; i < 8; i+=3) {
+		
+		for(int j = i; j <i+1; j++) {
+			
+				System.out.println(i + " " + (j+1) + " " + (j+2)) ;
+				
+	}
+
+	} */
+	
+	
+	/*3. for(int i = 1; i<92; i+=10) {
+		String lemon = " ";
+		for(int j = i+1; j<i+10; j++) {
+		lemon += j + " ";
 		}
-		System.out.println(k);
+			System.out.println(i + lemon );
+		
+		
+	}*/
+	
+	/* 4. String asterisk= "";
+	for(int i = 0; i < 6; i ++) {
+		for(int j = 0; j < 1; j++) {
+			asterisk+=" *";
+		}
+		System.out.println(asterisk);
 	}
-
-
-
-
-
+	*/
+	
+	/* bonus for(int i = 0; i < 101; i++) {
+		System.out.println(100-i);
+	}
+	
+	*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
-	}
+}
+
+
 	   
 	
 	
